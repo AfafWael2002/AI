@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.habbittracker2.HelloController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #4682b4;" VBox.vgrow="ALWAYS">
+      <children>
+            <CheckBox fx:id="ch14" layoutX="62.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase14" />
+            <CheckBox fx:id="ch15" layoutX="141.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase15" />
+            <CheckBox fx:id="ch16" layoutX="223.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase16" />
+            <CheckBox fx:id="ch17" layoutX="306.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase17" />
+            <CheckBox fx:id="ch18" layoutX="391.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase18" />
+            <CheckBox fx:id="ch19" layoutX="474.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase19" />
+            <CheckBox fx:id="ch20" layoutX="555.0" layoutY="254.0" mnemonicParsing="false" onAction="#increase20" />
+            <CheckBox fx:id="ch0" layoutX="62.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase0" />
+            <CheckBox fx:id="ch3" layoutX="306.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase3" />
+            <CheckBox fx:id="ch2" layoutX="223.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase2" />
+            <CheckBox fx:id="ch1" layoutX="141.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase1" />
+            <CheckBox fx:id="ch6" layoutX="555.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase6" />
+            <CheckBox fx:id="ch5" layoutX="474.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase5" />
+            <CheckBox fx:id="ch4" layoutX="391.0" layoutY="146.0" mnemonicParsing="false" onAction="#increase4" />
+            <CheckBox fx:id="ch10" layoutX="306.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase10" />
+            <CheckBox fx:id="ch9" layoutX="223.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase9" />
+            <CheckBox fx:id="ch8" layoutX="141.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase8" />
+            <CheckBox fx:id="ch7" layoutX="62.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase7" />
+            <CheckBox fx:id="ch11" layoutX="391.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase11" />
+            <CheckBox fx:id="ch12" layoutX="474.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase12" />
+            <CheckBox fx:id="ch13" layoutX="555.0" layoutY="197.0" mnemonicParsing="false" onAction="#increase13" />
+            <ProgressBar fx:id="bar1" layoutX="299.0" layoutY="60.0" prefHeight="23.0" prefWidth="270.0" progress="0.0000" />
+            <Text layoutX="51.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prayer" wrappingWidth="154.82861328125">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#2a1566" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Button layoutX="62.0" layoutY="308.0" mnemonicParsing="false" onAction="#ToMain" prefHeight="31.0" prefWidth="80.0" text="&lt;&lt;Back" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
